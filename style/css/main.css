@@ -1,0 +1,24 @@
+@import "header.css";
+@import "sidebar.css";
+@import "task-list.css";
+
+@font-face {
+    font-family: 'DIN bold';
+    src: url(../fonts/din-bold.otf); }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; }
+
+button {
+    outline: none;
+    border: none; }
+
+a {
+    text-decoration: none; }
+
+.page-content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }

@@ -1,0 +1,87 @@
+.sidebar {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 185px;
+  height: 1110px;
+  background-color: #f1f1f1;
+  box-shadow: 1px 0 0 0 #cccccc;
+  border-top: 1px solid #cccccc;
+}
+
+.sidebar_menu {
+  margin: 0;
+  padding: 20px 0 0 0;
+  list-style: none;
+  color: #393939;
+  font-size: 13px;
+  line-height: 40px;
+  a {
+    display: block;
+    box-sizing: border-box;
+    width: 185px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #393939;
+    &:active {
+      background-color: #ffffff;
+      width: 186px;
+      border-right: 1px solid #cccccc;
+    }
+  }
+}
+
+.sidebar_menu-item {
+  width: 185px;
+  &:hover {
+    background-color: #ebebeb;
+    width: 186px;
+    border-right: 1px solid #cccccc;
+  }
+}
+
+.sidebar_menu-item--main a{
+  background: url("../svg/dashboard.svg") 55% no-repeat;
+}
+
+.sidebar_menu-item--communication {
+  margin-top: 20px;
+}
+
+.sidebar_menu-item--settings {
+  background: url("../svg/gears-couple.svg") 62% no-repeat;
+  background-size: 13px 13px;
+}
+
+.sidebar_message {
+  font-size: 10px;
+  color: #484848;
+}
+
+.sidebar_message-item {
+  margin: 10px 20px;
+  position: relative;
+  &::before {
+    content: "";
+    border: 1px solid #cccccc;
+    position: absolute;
+    padding: 5px 5px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    left: -7px;
+    top: -5px;
+  }
+}
+
+.sidebar_message-author {
+  font-size: 9px;
+  font-style: italic;
+  display: block;
+  padding: 10px 0;
+}
+
+.sidebar_company-name {
+  font-size: 11px;
+  color: #484848;
+  padding: 0 30px 25px;
+}
