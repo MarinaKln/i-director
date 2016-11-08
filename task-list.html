@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>I-DIRECTOR</title>
+    <link rel = "stylesheet" href = "style/css/main.css"/>
+    <link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+</head>
+<body>
+<div class = "header">
+    <div class="header_logo-box">
+        <div class = "header_logo"><a href="#">I-DIRECTOR</a></div>
+        <div class = "header_company-name">КуполСтрой</div>
+    </div>
+    <form class = "header_search">
+        <input class = "header_search-input" type="text" placeholder = "Поиск по всей базе"/>
+        <button class = "header_search-btn"></button>
+    </form>
+    <div>
+       <img class = "header_user-photo" src="style/images/freeman.jpg">
+        <span class = "header_user-name">Морган Ф</span>
+        <button class = "header_user-btn"></button>
+        <span class = "header_help"><a href="#">Помощь</a></span>
+    </div>
+</div>
+<div class = "page-content">
+    <div class = "sidebar">
+    <ul class = "sidebar_menu">
+        <li class="sidebar_menu-item sidebar_menu-item--main"><a href="#">Главная</a></li>
+        <li class="sidebar_menu-item"><a href="#">Журнал</a></li>
+        <li class="sidebar_menu-item sidebar_menu-item--communication"><a href="#">Общение</a></li>
+        <li class="sidebar_menu-item"><a href="#">Задачи</a></li>
+        <li class="sidebar_menu-item"><a href="#">Работы</a></li>
+        <li class="sidebar_menu-item"><a href="#">Процессы</a></li>
+        <li class="sidebar_menu-item"><a href="#">Документы</a></li>
+        <li class="sidebar_menu-item"><a href="#">События</a></li>
+        <li class="sidebar_menu-item"><a href="#">Деньги</a></li>
+        <li class="sidebar_menu-item"><a href="#">Отчеты</a></li>
+        <li class="sidebar_menu-item"><a href="#">Склад</a></li>
+        <li class="sidebar_menu-item"><a href="#">Справочники</a></li>
+        <li class="sidebar_menu-item sidebar_menu-item--settings"><a href="#">Настройки</a></li>
+    </ul>
+    <div class = "sidebar_message">
+        <div class="sidebar_message-item">
+            <span class = "sidebar_message-text">12 января мы празднуем день рождение КуполСтроя. Кто не придет, того в своем
+            кабинете ждет наш милый HR с паяльником.</span>
+            <span class = "sidebar_message-author">Виктор Васильевич</span>
+
+        </div>
+        <div class="sidebar_message-item">
+            <span class = "sidebar_message-text">12 января мы празднуем день рождение КуполСтроя. Кто не придет, того в своем
+            кабинете ждет наш милый HR с паяльником.</span>
+            <span class = "sidebar_message-author">Виктор Васильевич</span>
+
+        </div>
+    </div>
+    <span class = "sidebar_company-name">ООО "КуполСтрой Продакшн Лимитед"</span>
+</div>
+    <div class = "task-list_content">
+        <div class = "task-list_top">
+            <div class = "task-list_header">
+                <div class = "task-list_title">
+                    <span>Задачи по процессу
+                        <span class = "task-list_title--process-name">"Закупка техники"</span>
+                    </span>
+                    <button class = "task-list_create-task-btn">Создать задачу</button>
+                </div>
+                <div class = "task-list_filters">
+                    <div class = "task-list_filters-list">
+                        <a href = "#" class = "task-list_filters-item">По дате</a>
+                        <a href = "#" class = "task-list_filters-item task-list_filters-item--chosen">По типу</a>
+                        <a href = "#" class = "task-list_filters-item">По работникам</a>
+                        <a href = "#" class = "task-list_filters-item">По проектам</a>
+                        <a href = "#" class = "task-list_filters-item">Созданный фильтр 1</a>
+                        <a href = "#" class = "task-list_filters-item">Созданный фильтр 2</a>
+                        <a href = "#" class = "task-list_filters-item">Созданный фильтр 3</a>
+                        <a href = "#" class = "task-list_filters-item">Созданный фильтр 4</a>
+                        <a href = "#" class = "task-list_filters-item">Созданный фильтр 5</a>
+                        <a href = "#" class = "task-list_filters-item">Созданный фильтр 6</a>
+                        <a href = "#" class = "task-list_filters-item">Созданный фильтр 7</a>
+                        <a href = "#" class = "task-list_filters-item task-list_filters-item--more">еще <span>3</span></a>
+                    </div>
+                    <button class="task-list_filters-btn">Расширенные фильтры</button>
+                </div>
+            </div>
+            <div class = "task-list_little-group">
+                <span class="task-list_little-group-name">Название группы задач</span>
+                <table class="task-list_table task-list_table--name">
+                    <tr>
+                        <td class = "task-list_column-type">Тип</td>
+                        <td class = "task-list_column-name task-list_column-name--icon">Название задачи</td>
+                        <td class = "task-list_column-date">Срок до</td>
+                        <td class = "task-list_column-project">Проект</td>
+                        <td class = "task-list_column-from">От кого</td>
+                        <td class = "task-list_column-for">Кому</td>
+                        <td class = "task-list_column-more-btn"></td>
+                    </tr>
+                </table>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check1">
+                        <label for="check1"></label>
+                    </div>
+                    <table class="task-list_table">
+                        <tr>
+                            <td class = "task-list_column-type task-list_column-type--top-arrow"></td>
+                            <td class = "task-list_column-name">Рассмотрение и утверждение бюджета</td>
+                            <td class = "task-list_column-date">13 октября</td>
+                            <td class = "task-list_column-project">Tilda programs</td>
+                            <td class = "task-list_column-from">Иванов А.</td>
+                            <td class = "task-list_column-for">Галушко Л.</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check2">
+                        <label for="check2"></label>
+                    </div>
+                    <table class = "task-list_table task-list_table--chosen">
+                        <tr>
+                            <td class = "task-list_column-type task-list_column-type--shuffle-arrows"></td>
+                            <td class = "task-list_column-name">Закупка техники</td>
+                            <td class = "task-list_column-date">17 октября</td>
+                            <td class = "task-list_column-project">Социализация</td>
+                            <td class = "task-list_column-from task-list_column-you">от вас</td>
+                            <td class = "task-list_column-for">Расторгуев Н.</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check3">
+                        <label for="check3"></label>
+                    </div>
+                    <table class = "task-list_table">
+                        <tr>
+                            <td class = "task-list_column-type task-list_column-type--shuffle-arrows"></td>
+                            <td class = "task-list_column-name">Сбор отчета</td>
+                            <td class = "task-list_column-date">30 октября</td>
+                            <td class = "task-list_column-project">Проект</td>
+                            <td class = "task-list_column-from">Фесенко К.</td>
+                            <td class = "task-list_column-for">Сергеев С.</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check4">
+                        <label for="check4"></label>
+                    </div>
+                    <table class = "task-list_table">
+                        <tr>
+                            <td class = "task-list_column-type task-list_column-type--top-arrow"></td>
+                            <td class = "task-list_column-name">Митинг</td>
+                            <td class = "task-list_column-date">17 ноября</td>
+                            <td class = "task-list_column-project">Tilda programs</td>
+                            <td class = "task-list_column-from">Иванов А.</td>
+                            <td class = "task-list_column-for task-list_column-you">к вам</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check5">
+                        <label for="check5"></label>
+                    </div>
+                    <table class = "task-list_table">
+                        <tr class = "task-list-item">
+                            <td class = "task-list_column-type task-list_column-type--shuffle-arrows"></td>
+                            <td class = "task-list_column-name">Рассмотрение и утверждение бюджета</td>
+                            <td class = "task-list_column-date">30 марта</td>
+                            <td class = "task-list_column-project">Социализация</td>
+                            <td class = "task-list_column-from">Щепетильников Л.</td>
+                            <td class = "task-list_column-for">Расторгуев Н.</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="task-list_large-group">
+                <span class="task-list_little-group-name">Название группы задач с большим выбором</span>
+                <table class="task-list_table task-list_table--name">
+                    <tr>
+                        <td class = "task-list_column-type">Тип</td>
+                        <td class = "task-list_column-name task-list_column-name--icon">Название задачи</td>
+                        <td class = "task-list_column-date">Срок до</td>
+                        <td class = "task-list_column-project">Проект</td>
+                        <td class = "task-list_column-from">От кого</td>
+                        <td class = "task-list_column-for">Кому</td>
+                        <td class = "task-list_column-more-btn"></td>
+                    </tr>
+                </table>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check6">
+                        <label for="check6"></label>
+                    </div>
+                    <table class="task-list_table">
+                        <tr>
+                            <td class = "task-list_column-type task-list_column-type--top-arrow"></td>
+                            <td class = "task-list_column-name">Рассмотрение и утверждение бюджета</td>
+                            <td class = "task-list_column-date">13 октября</td>
+                            <td class = "task-list_column-project">Tilda programs</td>
+                            <td class = "task-list_column-from">Иванов А.</td>
+                            <td class = "task-list_column-for">Галушко Л.</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check7">
+                        <label for="check7"></label>
+                    </div>
+                    <table class = "task-list_table task-list_table--chosen">
+                        <tr>
+                            <td class = "task-list_column-type task-list_column-type--shuffle-arrows"></td>
+                            <td class = "task-list_column-name">Закупка техники</td>
+                            <td class = "task-list_column-date">17 октября</td>
+                            <td class = "task-list_column-project">Социализация</td>
+                            <td class = "task-list_column-from task-list_column-you">от вас</td>
+                            <td class = "task-list_column-for">Расторгуев Н.</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check8">
+                        <label for="check8"></label>
+                    </div>
+                    <table class = "task-list_table">
+                        <tr>
+                            <td class = "task-list_column-type task-list_column-type--shuffle-arrows"></td>
+                            <td class = "task-list_column-name">Сбор отчета</td>
+                            <td class = "task-list_column-date">30 октября</td>
+                            <td class = "task-list_column-project">Проект</td>
+                            <td class = "task-list_column-from">Фесенко К.</td>
+                            <td class = "task-list_column-for">Сергеев С.</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check9">
+                        <label for="check9"></label>
+                    </div>
+                    <table class = "task-list_table">
+                        <tr>
+                            <td class = "task-list_column-type task-list_column-type--top-arrow"></td>
+                            <td class = "task-list_column-name">Митинг</td>
+                            <td class = "task-list_column-date">17 ноября</td>
+                            <td class = "task-list_column-project">Tilda programs</td>
+                            <td class = "task-list_column-from">Иванов А.</td>
+                            <td class = "task-list_column-for task-list_column-you">к вам</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "task-list_table-box">
+                    <div class = "task-list_table-toggle">
+                        <input type = "checkbox" id="check10">
+                        <label for="check10"></label>
+                    </div>
+                    <table class = "task-list_table">
+                        <tr class = "task-list-item">
+                            <td class = "task-list_column-type task-list_column-type--shuffle-arrows"></td>
+                            <td class = "task-list_column-name">Рассмотрение и утверждение бюджета</td>
+                            <td class = "task-list_column-date">30 марта</td>
+                            <td class = "task-list_column-project">Социализация</td>
+                            <td class = "task-list_column-from">Щепетильников Л.</td>
+                            <td class = "task-list_column-for">Расторгуев Н.</td>
+                            <td class = "task-list_column-btn">
+                                <button></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <a href="#" class="task-list_show-more">Показать еще <span>5</span>...</a>
+            </div>
+        </div>
+        <div class = "task-list_footer">
+            <div class = "task-list_footer-text">
+                <span>Выбрано:</span>
+                <span class = "task-list_footer-text-num">2</span>
+            </div>
+            <div class = "task-list_footer-central-btns">
+                <button class = "task-list_footer-btn">Ознакомлен</button>
+                <button class = "task-list_footer-btn">Завершить</button>
+                <button class = "task-list_footer-btn">Подтвердить</button>
+                <button class = "task-list_footer-btn">Делегировать</button>
+            </div>
+            <div class = "task-list_footer-right-btns">
+                <button class = "task-list_footer-btn">Копировать</button>
+                <button class = "task-list_footer-btn task-list_footer-btn--delete">Удалить</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
