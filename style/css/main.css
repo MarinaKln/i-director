@@ -1,6 +1,7 @@
 @import "header.css";
 @import "sidebar.css";
-@import "task-list.css";
+@import "journal.css";
+/*@import "task-list.css";*/
 
 @font-face {
     font-family: 'DIN bold';
@@ -13,7 +14,8 @@ body {
 
 button {
     outline: none;
-    border: none; }
+    border: none;
+    cursor: pointer; }
 
 a {
     text-decoration: none; }

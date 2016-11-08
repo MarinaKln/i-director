@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>I-DIRECTOR</title>
+    <link rel = "stylesheet" href = "style/css/main.css"/>
+    <link href = "https://fonts.googleapis.com/css?family=Open+Sans" rel = "stylesheet">
+</head>
+<body>
+<div class = "header">
+    <div class="header_logo-box">
+        <div class = "header_logo"><a href="#">I-DIRECTOR</a></div>
+        <div class = "header_company-name"><a href="#">КуполСтрой</a></div>
+    </div>
+    <form class = "header_search">
+        <input class = "header_search-input" type="text" placeholder = "Поиск по всей базе"/>
+        <button class = "header_search-btn"></button>
+    </form>
+    <div>
+       <img class = "header_user-photo" src="style/images/freeman.jpg">
+        <span class = "header_user-name">Морган Ф</span>
+        <button class = "header_user-btn"></button>
+        <span class = "header_help"><a href="#">Помощь</a></span>
+    </div>
+</div>
+<div class = "page-content">
+    <div class = "sidebar">
+        <ul class = "sidebar_menu">
+            <li class="sidebar_menu-item sidebar_menu-item--main"><a href="#">Главная</a></li>
+            <li class="sidebar_menu-item"><a href="#">Журнал</a></li>
+            <li class="sidebar_menu-item sidebar_menu-item--communication"><a href="#">Общение</a></li>
+            <li class="sidebar_menu-item"><a href="#">Задачи</a></li>
+            <li class="sidebar_menu-item"><a href="#">Работы</a></li>
+            <li class="sidebar_menu-item"><a href="#">Процессы</a></li>
+            <li class="sidebar_menu-item"><a href="#">Документы</a></li>
+            <li class="sidebar_menu-item"><a href="#">События</a></li>
+            <li class="sidebar_menu-item"><a href="#">Деньги</a></li>
+            <li class="sidebar_menu-item"><a href="#">Отчеты</a></li>
+            <li class="sidebar_menu-item"><a href="#">Склад</a></li>
+            <li class="sidebar_menu-item"><a href="#">Справочники</a></li>
+            <li class="sidebar_menu-item sidebar_menu-item--settings"><a href="#">Настройки</a></li>
+        </ul>
+        <div class = "sidebar_message">
+            <div class="sidebar_message-item">
+                <span class = "sidebar_message-text">12 января мы празднуем день рождение КуполСтроя. Кто не придет,
+                    того в своем кабинете ждет наш милый HR с паяльником.
+                </span>
+                <span class = "sidebar_message-author">Виктор Васильевич</span>
+            </div>
+        <div class="sidebar_message-item">
+            <span class = "sidebar_message-text">12 января мы празднуем день рождение КуполСтроя. Кто не придет,
+                того в своем кабинете ждет наш милый HR с паяльником.
+            </span>
+            <span class = "sidebar_message-author">Виктор Васильевич</span>
+        </div>
+        </div>
+        <span class = "sidebar_company-name">ООО "КуполСтрой Продакшн Лимитед"</span>
+    </div>
+    <div class = "journal">
+        <div class = "journal_header">
+            <div class="journal_header-title">
+                Журнал обновлений
+            </div>
+            <div class = "journal_header-checkbox">
+                <input type = "checkbox" id = "journal_header-check1" class="journal_header-check"/>
+                <label for = "journal_header-check1" class="journal_header-label">Все</label>
+            </div>
+            <div class = "journal_header-checkbox">
+                <input type = "checkbox" id = "journal_header-check2" class="journal_header-check"/>
+                <label for = "journal_header-check2" class="journal_header-label">Задачи</label>
+            </div>
+            <div class = "journal_header-checkbox">
+                <input type = "checkbox" id = "journal_header-check3" class="journal_header-check"/>
+                <label for = "journal_header-check3" class="journal_header-label">Работы</label>
+            </div>
+            <div class = "journal_header-checkbox">
+                <input type = "checkbox" id = "journal_header-check4" class="journal_header-check"/>
+                <label for = "journal_header-check4" class="journal_header-label">Документы</label>
+            </div>
+            <div class = "journal_header-checkbox">
+                <input type = "checkbox" id = "journal_header-check5" class="journal_header-check"/>
+                <label for = "journal_header-check5" class="journal_header-label">События</label>
+            </div>
+        </div>
+        <div class = "journal_content">
+            <div class = "journal_updating-list">
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:
+                            <span class = "status-in-work">в работе</span>
+                        </span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item journal_updating-list-item--chosen">
+                    <div class = "updating-list-item_title">
+                    <span class = "list-item_task-number">№42</span>
+                    <span class = "list-item_task-name">Супер важный позитивный текущий процесс-проект</span>
+                </div>
+                    <div class = "updating-list-item_status">
+                    <span>статус:
+                        <span class = "status-overdue">просрочен</span>
+                    </span>
+                    <span class = "status-number">2</span>
+                </div>
+                    <div class="journal_updating-list-drop-items">
+                        <div class="updating-list-drop-item">
+                            <div class="drop-item-status">
+                            <span class="drop-item-cathegory">документ:</span>
+                            </div>
+                        <span class="drop-item-text">Предварительный акт №1</span>
+                    </div>
+                        <div class="updating-list-drop-item">
+                        <div class="drop-item-status">
+                            <span class="drop-item-cathegory">работа:
+                                <span class="work-status status-overdue">просрочена</span>
+                            </span>
+                            <span class="status-number">2</span>
+                        </div>
+                        <span class="drop-item-text">Калькуляция</span>
+                    </div>
+                        <div class="updating-list-drop-item">
+                            <div class="drop-item-status">
+                            <span class="drop-item-cathegory">задача:</span>
+
+                            </div>
+                        <span class="drop-item-text">Обсудить сумму проекта с заказчиком</span>
+                    </div>
+                        <div class="updating-list-drop-item">
+                        <div class="drop-item-status">
+                            <span class="drop-item-cathegory">работа:
+                                <span class="work-status status-new">новая</span>
+                            </span>
+                            <span class="status-number">2</span>
+                        </div>
+                        </span>
+                        <span class="drop-item-text">Предварительный акт №1</span>
+                    </div>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+                <div class = "journal_updating-list-item">
+                    <div class = "updating-list-item_title">
+                        <span class = "list-item_task-number">№22</span>
+                        <span class = "list-item_task-name">Не сильно важный проект</span>
+                    </div>
+                    <div class = "updating-list-item_status">
+                        <span>статус:</span>
+                        <span class = "status-in-work">в работе</span>
+                        <span class = "status-number">4</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class = "journal_comments-box">
+                <div class = "journal_add-comment-box">
+                    <div class = "add-comment-box_title">
+                        <span class = "task-name">
+                            <span class = "task-number">№42</span>
+                            Супер важный позитивный текущий процесс-проект
+                        </span>
+                        <a class = "add-comment-box_title-redaction" href = "#">редактировать процесс</a>
+                    </div>
+                    <form class="add-comment_form">
+                        <input class="add-comment_input" type="text" placeholder="Ваш комментарий по процессу..."/>
+                        <input type="checkbox" id="add-comment_sms-check" class="add-comment_check"/>
+                        <label for="add-comment_sms-check" class="add-comment_sms-check">sms</label>
+                        <input type="checkbox" id="add-comment_email-check" class="add-comment_check"/>
+                        <label for="add-comment_email-check" class="add-comment_email-check">email</label>
+                        <button class="add-comment_btn">Опубликовать комментарий</button>
+                    </form>
+                </div>
+                <div class = "journal_comments-list">
+                    <table>
+                        <tr>
+                            <td class="comments-list_date">сегодня, 19:32</td>
+                            <td class="comments-list_name"><a href="">Иванов И.</a></td>
+                            <td class="comments-list_message">
+                                <span class="message-text">
+                                    Ой ребята, я случайно удалил работу, как ее блин
+                                    восстановить чтобы шеф не увидел
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="comments-list_date">сегодня, 19:20</td>
+                            <td class="comments-list_name"><a href="#">Иванов И.</a></td>
+                            <td>Удалена работа #21 Ввод исходных данных</td>
+                        </tr>
+                        <tr>
+                            <td class="comments-list_date">вчера, 16:32</td>
+                            <td class="comments-list_name"><a href="#">Подложкина С.</a></td>
+                            <td>Запущен подпроцесс <a href = "#">№ 3/2/1</a></td>
+                        </tr>
+                        <tr>
+                            <td class="comments-list_date">22 октября 2016, 15:15</td>
+                            <td class="comments-list_name"><a href="#">Иванов И.</a></td>
+                            <td>Создана задача <a href="#">Обсудить сумму проекта с заказчиком</a></td>
+                        </tr>
+                        <tr>
+                            <td class="comments-list_date">19 октября 2016, 16:32</td>
+                            <td class="comments-list_name"><a href="#">Иванов И.</a></td>
+                            <td>Запущен процесс</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
